@@ -1,0 +1,14 @@
+model_type: AttentionLSTM
+num_layers: 1
+activation_name: ReLU
+hidden_dim: 256
+temperature: 1.0
+embed_dim: 128
+dropout: 0.3
+batch_size: 64
+epochs: 100
+lr: 0.001
+seq_len: 32
+top_k: 20
+vocab_size: 2824
+poem_count: 901
