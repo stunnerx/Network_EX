@@ -1,0 +1,15 @@
+{
+    "quantized_engine": "onednn",
+    "fp32_accuracy": 0.9616241548862938,
+    "int8_accuracy": 0.961240012292563,
+    "accuracy_loss": 0.000384142593730874,
+    "fp32_size_mb": 3.127610206604004,
+    "int8_size_mb": 0.7905092239379883,
+    "compression_ratio": 3.9564499842564143,
+    "fp32_latency_ms": 4.196765500091715,
+    "int8_latency_ms": 2.8033182499348186,
+    "speedup": 1.4970706590981226,
+    "calib_size": 2048,
+    "max_calib_batches": 16,
+    "weight_qscheme": "symmetric"
+}
